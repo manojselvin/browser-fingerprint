@@ -1,4 +1,5 @@
 <?php
+include "./includes/config.php";
 
 function verifyFingerprint($fingerprint){
     //match fingerprint with db
