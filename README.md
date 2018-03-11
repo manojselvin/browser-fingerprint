@@ -1,5 +1,7 @@
 # browser-fingerprint
 
+Instructions
+
 Step - 1 - Download or clone the repository
 
 Step - 2 - Include the following scripts inside the head/body of the login page 
