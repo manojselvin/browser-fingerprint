@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Fingerprint</title>
+	<script src="./js/client.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+
+</head>
+<body>
+	<p>Your Fingerprint is <h3 id="fingerprint"></h3></p>
+	<script src="./js/browser-fingerprint.js"></script>
+	
+	<script type="text/javascript">
+		if($(document).find("#fingerprint").length > 0){
+			$("#fingerprint").text(fingerprint);
+		}
+	</script>
+</body>
+</html>
