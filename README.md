@@ -4,6 +4,8 @@ Instructions
 
 Step - 1 - Download or clone the repository
 
+           git clone https://github.com/manojselvin/browser-fingerprint.git
+
 Step - 2 - Include the following scripts inside the head/body of the login page 
 
            <script src="./js/client.min.js"></script>
